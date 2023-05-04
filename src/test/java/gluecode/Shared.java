@@ -43,7 +43,6 @@ public class Shared
 		this.s=s;
 		s.log("\""+s.getName()+"\" execution started");
 	
-	System.out.println();
 	}
 	//method to be executed after every "Scenario:" or "Scenario Outline:" iteration execution
 	@After
