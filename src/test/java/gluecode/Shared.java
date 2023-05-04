@@ -42,8 +42,9 @@ public class Shared
 		//Create "Scenario" class object to work for current "Scenario:" or "Scenario Outline:"
 		this.s=s;
 		s.log("\""+s.getName()+"\" execution started");
-	}
 	
+	System.out.println();
+	}
 	//method to be executed after every "Scenario:" or "Scenario Outline:" iteration execution
 	@After
 	public void method2(Scenario s)
